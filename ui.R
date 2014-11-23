@@ -26,10 +26,12 @@ shinyUI(fluidPage(
                         helpText("The values for the years from 2013",
                                  "and later are existing forecasts.", 
                                  "Please hover over the lines to get exact",
-                                 "values or click on the *Raw Data* tab.",
+                                 "values or click on the Raw Data tab.",
                                  "For more infomation on how the data was", 
                                  "collected and how the app works,",
-                                 "please see the documentation:")
+                                 "please check the ", tags$a(href="http://rpubs.com/nierhoff/Shiny-App-Pres", "project documentation"),
+                                 "and whole code and data can",
+                                 tags$a(href="https://github.com/mhnierhoff/DDP_Shiny_Project", "be found here."))
                 ),
                 
                 # Show the plot 
